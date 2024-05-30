@@ -19,8 +19,4 @@ public class MyController {
 		return "<h1>Good Morning!!</h1>";
 	}
 	
-	@RequestMapping("/greet")
-	public String sayGreet() {
-		return "<h1>Good Evening!!</h1>";
-	}
 }
